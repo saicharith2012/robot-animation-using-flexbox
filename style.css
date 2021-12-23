@@ -49,11 +49,28 @@ h1 {
 
 .left_arm { 
 	margin-right: 10px; 
-} 
+}
+
+.left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
 
 .right_arm { 
 	margin-left: 10px; 
 } 
+.right_arm:hover {
+	-webkit-transform: rotate(340deg);
+    -moz-transform: rotate(340deg);
+    -o-transform: rotate(340deg);
+    -ms-transform: rotate(340deg);
+    transform: rotate(340deg);
+}
+
 
 .torso { 
 	width: 200px; 
