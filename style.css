@@ -131,7 +131,13 @@ h1 {
 	position: relative; 
 	top: 100px; 
 	left: 40px; 
+	transition: all 0.5s;
 } 
+
+.left_eye:hover{
+	transform: scale(1.5);
+
+}
 
 .right_eye { 
 	position: relative; 
