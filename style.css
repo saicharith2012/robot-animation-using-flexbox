@@ -91,6 +91,13 @@ h1 {
 .right_leg { 
 	margin-left: 30px; 
 }
+.right_leg:hover {
+	-webkit-transform: rotate(340deg);
+    -moz-transform: rotate(3400deg);
+    -o-transform: rotate(340deg);
+    -ms-transform: rotate(340deg);
+    transform: rotate(340deg);
+}
 
 
 
